@@ -276,6 +276,37 @@ img {
 
 }
 }
+.mobile-menu-icons-list {
+    gap: 16px;
+    
+
+}
+.mobile-menu-icons-list-item{
+    list-style-type: none;
+}
+.mobile-menu-icon {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #f4f4fd
+}
+
+.mobile-menu-icon:hover,
+.mobile-menu-icon:focus {
+    background-color: #31d0aa;
+
+
+}
+
+.mobile-menu-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 
 @media only screen and (min-width:768px){
     .mobile-menu{
@@ -764,7 +795,7 @@ display: none;
             width: calc((100% - 1 * 24px) / 2);
             transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-}
+}}
 
 /* ================ Portfolio Section DT===============*/
 @media only screen and (min-width: 1158px) {
@@ -822,6 +853,310 @@ display: none;
         
                 }
     }
+
+
+/* ================ Footer Mobile ===============*/
+
+.footer {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background: #2e2f42;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: block;
+
+
+}
+@media only screen and (max-width: 1157px){
+.logo-footer-container{
+    padding-bottom: 72px;
+    text-align: center;
+}
+.footer-container{
+    .footer-container {
+            display: block;
+            max-width: 320px;
+            align-items: baseline;
+}
+}
+.footer-soc {
+    display: block;
+    text-align: center;
+    padding-bottom: 72px;
+}
+.subscribe {
+
+    text-align: center;
+
+}
+
+.review-form-footer {
+    display: block;
+    padding-bottom: 96px;
+}}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding-bottom: 16px;
+    display: inline-block;
+ }
+
+.footer-logo-part {
+    color: #f4f4fd;
+
+}
+
+.footer-container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer-part {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+    text-align: left;
+
+}
+
+
+.soc-med-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    
+
+}
+
+.footer-icons-list {
+    gap: 16px;
+
+}
+
+.footer-icon {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #f4f4fd
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    background-color: #31d0aa;
+
+
+}
+.footer-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31d0aa;
+}
+
+
+.review-form-input-footer {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+
+.review-form-input-footer::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff
+}
+
+.subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.subscribe-icon {
+    fill: #FFFFFF;
+    margin-left: 16px;
+
+
+}
+/* ================ Footer Tablet ===============*/
+@media only screen and (min-width: 768px) {
+.footer {
+    padding-top: 96px;
+
+}
+.logo-footer-container {
+    margin-right: 24px;   
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    max-width: 768px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+.soc-med-title {
+    text-align: left;
+
+}
+
+.review-form-footer {
+    display: flex;
+    gap: 24px;
+}
+
+}
+/* ================ Footer DT ===============*/
+@media only screen and (min-width: 1158px) {
+    .footer {
+            padding-top: 100px;
+            padding-bottom: 100px;
+         }
+    .logo-footer-container {
+            margin-right: 120px;
+        }
+    
+        .footer-container {
+            display: flex;
+            height: 112px;
+            align-items: baseline;
+            max-width: 1158px;
+    
+    
+        }
+        .footer-logo-part {
+            color: #f4f4fd;
+    
+        }
+    
+        .footer-part {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #f4f4fd;
+            max-width: 264px;
+    
+        }
+    
+        .footer-soc {
+            margin-right: 80px;
+        }
+    
+        .footer-icons-list {
+            gap: 16px;
+    
+        }
+    
+        .footer-icon {
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            fill: #f4f4fd
+        }
+    
+        .footer-icon:hover,
+        .footer-icon:focus {
+            background-color: #31d0aa;
+    
+    
+        }
+    
+        .soc-med-title {
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+    
+        }
+    
+    
+        .footer-link {
+            width: 100%;
+            height: 100%;
+            background-color: #4d5ae5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        }
+    
+        .footer-link:hover,
+        .footer-link:focus {
+            background-color: #31d0aa;
+        }
+    .review-form-footer {
+            display: flex;
+            gap: 24px;
+        }
+    
+        .review-form-input-footer {
+          
+            margin-right: 24px;
+      
+        }
+    
+    
+    
+   
+}
+
 
 /* ================ Mobile Modal===============*/
 .backdrop {
