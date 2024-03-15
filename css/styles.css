@@ -594,7 +594,10 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     background: #f4f4fd;
-    padding-bottom: 96px;
+}
+@media only screen and (max-width: 1157px) {
+.team-sect{ padding-bottom: 64px;}
+    
 }
 
 .team-sect-container {
@@ -712,9 +715,10 @@ img {
 /* ================ Team Section DT ===============*/
 @media only screen and (min-width: 1158px){
     
-    .team-sect {
-        padding-bottom: 120px;
-}
+.team-sect {
+        padding-bottom: 88px;
+    }
+
     .team-title{
         padding-top: 120px;
 }
@@ -727,8 +731,8 @@ img {
     .names-list-item {
         width: calc((100% - 3 * 24px) / 4);
 }
-}
 
+}
 /* ================ portfolio Section Mobile===============*/
 .portfolio-titles {
     font-weight: 500;
@@ -864,23 +868,21 @@ display: none;
     color: #f4f4fd;
     background: #2e2f42;
     padding-top: 96px;
-    padding-bottom: 96px;
     display: block;
 
-
 }
-@media only screen and (max-width: 1157px){
+
 .logo-footer-container{
     padding-bottom: 72px;
     text-align: center;
 }
-.footer-container{
-    .footer-container {
-            display: block;
-            max-width: 320px;
-            align-items: baseline;
+
+.footer-container {
+    display: block;
+    max-width: 320px;
+    align-items: baseline;
 }
-}
+
 .footer-soc {
     display: block;
     text-align: center;
@@ -893,9 +895,10 @@ display: none;
 }
 
 .review-form-footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding-bottom: 96px;
-}}
+}
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -1055,107 +1058,33 @@ display: none;
 
 .review-form-footer {
     display: flex;
+    flex-direction: row;
     gap: 24px;
 }
-
 }
+
 /* ================ Footer DT ===============*/
-@media only screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px){
     .footer {
             padding-top: 100px;
             padding-bottom: 100px;
-         }
+        }
     .logo-footer-container {
             margin-right: 120px;
         }
-    
-        .footer-container {
-            display: flex;
-            height: 112px;
-            align-items: baseline;
-            max-width: 1158px;
-    
-    
-        }
-        .footer-logo-part {
-            color: #f4f4fd;
-    
-        }
-    
-        .footer-part {
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #f4f4fd;
-            max-width: 264px;
-    
-        }
-    
-        .footer-soc {
-            margin-right: 80px;
-        }
-    
-        .footer-icons-list {
-            gap: 16px;
-    
-        }
-    
-        .footer-icon {
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            fill: #f4f4fd
-        }
-    
-        .footer-icon:hover,
-        .footer-icon:focus {
-            background-color: #31d0aa;
-    
-    
-        }
-    
-        .soc-med-title {
-            margin-top: 0;
-            margin-bottom: 16px;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #FFFFFF;
-            margin-bottom: 16px;
-    
-        }
-    
-    
-        .footer-link {
-            width: 100%;
-            height: 100%;
-            background-color: #4d5ae5;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-        }
-    
-        .footer-link:hover,
-        .footer-link:focus {
-            background-color: #31d0aa;
-        }
-    .review-form-footer {
-            display: flex;
-            gap: 24px;
-        }
-    
-        .review-form-input-footer {
-          
-            margin-right: 24px;
-      
-        }
-    
-    
-    
-   
+
+
+.footer-container {
+    display: flex;
+    min-width: 1158px;
+    height: 112px;
+    align-items: baseline;
 }
+.footer-soc {
+    margin-right: 80px;
+}
+}
+
 
 
 /* ================ Mobile Modal===============*/
